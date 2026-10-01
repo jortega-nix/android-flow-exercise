@@ -1,0 +1,4 @@
+# Windows batch files must keep CRLF or cmd.exe can mis-parse labels.
+*.bat text eol=crlf
+gradlew text eol=lf
+*.jar binary

@@ -5,8 +5,8 @@ Pure Kotlin and coroutines — no Android SDK needed.
 
 ## Setup
 
-You need a **JDK 17 or newer** and nothing else. Gradle and all dependencies download
-automatically on the first run. If your JDK is not 17, Gradle downloads a matching one.
+You need a **JDK 11 or newer** (17, 21 and 25 all work) and nothing else. Gradle and all
+dependencies download automatically on the first run.
 
 ```bash
 git clone <this repository URL>
@@ -46,7 +46,7 @@ Or in the IDE, right-click `FlowAggregationTest` → Run. When you are done, all
 ## If something goes wrong
 
 - **Gradle sync fails in the IDE** — try the command line first. If that works, the project is
-  fine and it is an IDE setting (Settings → Build Tools → Gradle → Gradle JDK = 17 or newer).
+  fine and it is an IDE setting (Settings → Build Tools → Gradle → Gradle JDK = 11 or newer).
 - **Anything else** — say so straight away. Setup problems are not part of what is being assessed
   and we will not spend the session on them.
 
